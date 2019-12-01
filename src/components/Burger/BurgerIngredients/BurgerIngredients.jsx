@@ -44,5 +44,5 @@ export default function BurgerIngredients(props) {
 }
 
 BurgerIngredients.propTypes = {
-  type: PropTypes.string
+  type: PropTypes.string.isRequired
 }
